@@ -2,6 +2,6 @@
 
 'use strict';
 
-const GeneratorFunction = Object.getPrototypeOf(async function () {}).constructor;
+const GeneratorFunction = Object.getPrototypeOf(function *() {}).constructor;
 
 exports.GeneratorFunction = GeneratorFunction;
